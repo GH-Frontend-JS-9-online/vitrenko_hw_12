@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/df5f755f6d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Messages</title>
+</head>
+<body>
+    <header>
+        <label class="label">v<span class="label_decoration">/</span>irtus</label>
+        <button class="adding">Add <span class="plus">+</span></button>
+        <button class="search"><i class="fas fa-search"></i></button>
+        <button class="notifications"><i class="far fa-bell"></i></button>
+        <label class="icon"><img src = "./img/label.png" alt="User icon"><span class="arrow_down"></span></label> 
+    </header>
+
+    <main>
+        <aside class="menu">
+            <i class="fas fa-home"></i>
+            <span>&#9776</span>
+            <i class="fas fa-envelope"></i>
+            <i class="fas fa-user-friends"></i>
+        </aside>
+        
+        <section class="main_content">
+            <div class="options">
+                <p class="option"><i class="fas fa-inbox"></i><span>Inbox</span></p>
+                <p class="option"><i class="fab fa-telegram-plane"></i></i><span>Sent</span></p>
+                <p class="option"><i class="fas fa-trash"></i><span>Trash</span></p>
+
+                <span class="filter">Filter messages:</span>
+                <select>
+                    <option selected>Date</option>
+                    <option>Name</option>
+                </select>
+            </div>
+
+            <section class="message">
+                <div class="chat_list"></div>
+                <section class="chat"></section>
+                <div class="info"></div>
+            </section> 
+        </section>
+    </main>
+</body>
+</html>
